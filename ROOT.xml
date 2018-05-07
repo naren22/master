@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+ 
+<Context path="">
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+    <WatchedResource>${catalina.base}/conf/web.xml</WatchedResource>
+
+<Parameter name="VGS-DB_driverClassName" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+<Parameter name="VGS-DB_url" value="jdbc:sqlserver://DB1;databaseName=SNAPP;user=snapp;password=*****" />
+
+<Parameter name="VGS-DEV-DB_driverClassName" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+<Parameter name="VGS-DEV-DB_url" value="jdbc:sqlserver://DB1;databaseName=SNAPP;user=snapp;password=*****" />
+
+<Parameter name="VGS-LATEST-DB_driverClassName" value="com.microsoft.sqlserver.jdbc.SQLServerDriver" />
+<Parameter name="VGS-LATEST-DB_url" value="jdbc:sqlserver://DB1;databaseName=SNAPP;user=snapp;password=*****" />
+</Context>
